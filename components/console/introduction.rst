@@ -54,7 +54,7 @@ un fichier ``GreetCommand.php`` et ajoutez-lui ce qui suit::
                 ->addArgument(
                     'name',
                     InputArgument::OPTIONAL,
-                    'Qui voulez-vous saluez?'
+                    'Qui voulez-vous saluer?'
                 )
                 ->addOption(
                    'yell',
